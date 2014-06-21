@@ -8,3 +8,6 @@
 * http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page
 * https://class.coursera.org/ml-005/lecture
 * http://code.tutsplus.com/tutorials/how-to-build-a-python-bot-that-can-play-web-games--active-11117
+* http://www.reddit.com/r/learnpython
+
+/C/projects/khido_db
