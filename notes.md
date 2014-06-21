@@ -6,3 +6,11 @@ The Python Imaging Library
 Numpy
 PyWin
 All of the above have self installers; Running them will automatically install the modules into your \lib\site-packages directory and, in theory, adjust your pythonPath accordingly. However in practice this doesn't always happen. Should you begin receiving any Import Error messages after installation, you'll probably need to manually adjust your Environment Variables. More information on adjusting Path Variables may be found here.
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Rock>python -m idlelib.idle
+** IDLE can't import Tkinter.  Your Python may not be configured for Tk. **
+
+C:\Users\Rock>
