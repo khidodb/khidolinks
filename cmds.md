@@ -1,87 +1,48 @@
-git remote add origin https://github.com/khido/test-repo 
-git remote add origin https://github.com/yourUserNameHere/test-repo.git
-
-fold another repo
-fork it..click fork
-git clone https://github.com/
-
-
-Rock@ROCK-PC /c/projects/test-repo (master)
-$ pwcd
-sh.exe": pwcd: command not found
-
-Rock@ROCK-PC /c/projects/test-repo (master)
-$
-
-what else
-git data transport commands
-
-commit -a
-add -u commit
-works
-
-add
-git add .-adds all new files
-git add -u update changed documents
-git add -A all previous
-
-git commit -m "files fixing error message"
-
-then
-
-git push - to put on git hub
-
-git checkout -b branchname
-git branch
-
-git checkout master 
-
-install.packages("slidify")  
-install.packages("KernSmooth")
-install.packages(c("slidify", "ggplot2", "devtools"))
-library(devtools)
+* git remote add origin https://github.com/khido/test-repo 
+* git remote add origin https://github.com/yourUserNameHere/test-repo.git 
+* folk another repo
+* fork it..click fork
+* git clone https://github.com/ 
+* Rock@ROCK-PC /c/projects/test-repo (master)
+* $ pwcd
+* sh.exe": pwcd: command not found
+* Rock@ROCK-PC /c/projects/test-repo (master)
 
 
-    ?, help
+## git data transport commands
 
-The following object is masked from ‘package:base’:
-
-    system.file
-
-> instal.packages("devtools")xlear
-Error: unexpected symbol in "instal.packages("devtools")xlear"
-> libary(devtools)
-Error: could not find function "libary"
-> library(devtools)
-> find_rtools()
-[1] TRUE
-
-source("http://bioconductor.org/biocLite.R")
-biocLite()
-
-
-
-Rock@ROCK-PC /c/projects/test-repo (master)
-$ git remote add origin https://github.com/khido/test-repo.git
-fatal: remote origin already exists.
-
-Rock@ROCK-PC /c/projects/test-repo (master)
-
-
-Rock@ROCK-PC /c/projects/test-repo (master)
-$ git remote -v
-origin  https://github.com/khido/test-repo (fetch)
-origin  https://github.com/khido/test-repo (push)
-
-Rock@ROCK-PC /c/projects/test-repo (master)
-
-$git remote rm destination
-
-you fork ,then clone
-
-1.git add file
-2.git commit
-3.git push
+* commit -a
+* add -u commit 
+* git add .-adds all new files
+* git add -u update changed documents
+* git add -A all previous
+* git commit -m "files fixing error message"
+* git push - to put on git hub 
+* git checkout -b branchname
+* git branch
+* git checkout master 
+## r-commands
+* install.packages("slidify")  
+* install.packages("KernSmooth")
+* install.packages(c("slidify", "ggplot2", "devtools"))
+* library(devtools)
+* source("http://bioconductor.org/biocLite.R")
+* biocLite()
+* Rock@ROCK-PC /c/projects/test-repo (master)
+* $ git remote add origin https://github.com/khido/test-repo.git
+* fatal: remote origin already exists.
+* Rock@ROCK-PC /c/projects/test-repo (master) 
+* Rock@ROCK-PC /c/projects/test-repo (master)
+* $ git remote -v
+* origin  https://github.com/khido/test-repo (fetch)
+* origin  https://github.com/khido/test-repo (push)
+* Rock@ROCK-PC /c/projects/test-repo (master)
+* $git remote rm destination
+* you fork ,then clone
+* 
+1 git add file
+2 git commit
+3 git push
 
 git checkout -b branchname
 git branch
