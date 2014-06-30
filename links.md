@@ -10,4 +10,7 @@
 * http://code.tutsplus.com/tutorials/how-to-build-a-python-bot-that-can-play-web-games--active-11117
 * http://www.reddit.com/r/learnpython
 
-/C/projects/khido_db
+/C/projects/khido_db:
+C:\Users\Rock\Downloads:
+http://poloclub.gatech.edu/cse6242/2014spring/
+http://www.infoworld.com/d/application-development/200k-computer-science-degree-or-these-free-online-classes-218565
