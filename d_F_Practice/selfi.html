@@ -12,9 +12,32 @@
       	  .data(data)
       	  .enter()
       	  .append("li")
-      	  .text(function(d){
+      	  .text(function (d){
       	  	return d.name + ":" +d.status;
       	  });
+
+        d3.selectAll("li")
+          .style("color",function (d){
+                  if (d.status=="GOOD SERVICE"){
+                        return "darkgreen"
+                  }
+                  else {return "darkgreen"}
+              })
+
+        d3.selectAll("li")
+           .style("font-weight",function (d){
+                  if (d.status=="GOOD SERVICE"){
+                        return "bold"
+                  }
+                  else {return "normal"}
+           })
+        d3.selectAll("li")
+          .style("font-style",function (d){
+                  if (d.status == "GOOD SERVICE"){
+                    return "italic"
+                  }
+                  else {return "normal"}
+          })
       }
 </script>
 </head>

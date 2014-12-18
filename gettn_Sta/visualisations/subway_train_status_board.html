@@ -23,6 +23,13 @@
                     return "bold"
                 }
             })
+        d3.selectAll("li")
+          .style("font-style", function (d) {
+            if (d.status == "GOOD SERVICE"){
+                return "italic"
+                }
+             else {return "normal"}   
+          })
         
     }
     </script>
